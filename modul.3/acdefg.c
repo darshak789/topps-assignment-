@@ -1,6 +1,6 @@
 int main()
 {
-    int rows = 5;
+    int rows = 7;
     char n = 'A';
 
     for (int i = 0; i < rows; i++)
