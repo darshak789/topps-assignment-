@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 10px -13px 5px 12px gray;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #cecece;
+}
+
+.search button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    padding-left: 25px;
+}
+
+.img-slider__container-1 {
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    overflow: auto;
+    justify-content: start;
+    align-items: center;
+}
+
+.img-slider__container-1 .img-items {
+    width: 100%;
+}
+
+.img-slider__container-1 .img-items img {
+    width: var(--img-width);
+}
+
+.img-slider__container-1 .img-items img.img-active {
+    transform: translateX(-100%);
+}
+
+.desktop-footerContainer {
+    max-width: 1080px;
+    margin: auto;
+    min-width: 980px;
+}
+
+.desktop-genericInfo {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.desktop-shopLinks {
+    float: left;
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.desktop-customerPolicies {
+    width: 15%;
+    float: left;
+}
+
+.desktop-appExperience {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    width: 360px;
+    font-size: 15px;
+    line-height: 19px;
+    float: left;
+    padding-top: 13px;
+}
+
+.desktop-promises {
+    width: 250px;
+    float: left;
+}
+
+.desktop-section {
+    margin: 15px 0 30px;
+    color: #696b79;
+}
+
+.desktop-delivery,
+.desktop-original,
+.desktop-return {
+    display: inline-block;
+    float: left;
+    margin-left: -10px;
+    margin-right: 10px;
+    width: 47.5px;
+    height: 40px;
+}
