@@ -1,0 +1,33 @@
+1> What are the advantages of Bootstrap?
+=>Access to a Vast Open Source Community of Resources. There is a vast community of open-source developers who contribute regularly to Bootstrap. ...
+Consistent Designs. ...
+Access to Support. ...
+Fast Development. ...
+Responsive Business Actions with a Grid System. ...
+Customizable Expansion. ...
+Loaded JavaScript Components. ...
+Easy to Integrate.
+ 
+
+ 2>What is a Bootstrap Container, and how does it work?
+ =>Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+
+ 3>What are the default Bootstrap text settings?
+ =>Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5. The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif. In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+
+
+ 4>What do you know about the Bootstrap Grid System?
+ =>Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.
+
+ 5>What is the difference between Bootstrap 4 and Bootstrap 5
+ =>Bootstrap 5 has removed the jQuery dependency, aiming for a more modern and lightweight approach. 
+
+ 6>What is a Button Group, and what is the class for a basic Button Group?
+ =>Button Groups” in Bootstrap is a class of name “btn-group” which is used to create a series of buttons in groups (without spaces) vertically or horizontally.
+
+ 7>How can you use Bootstrap to make thumbnails?
+ =>Step 1: The first step is to include the Bootstrap and jQuery CDN into the head tag before having CSS's stylesheets. 
+
+ 8>In Bootstrap 4, what is flexbox?
+ =>In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components.
+
