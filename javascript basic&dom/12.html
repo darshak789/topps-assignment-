@@ -1,0 +1,31 @@
+<script> 
+
+// JavaScript program to convert given 
+// number of days in terms of 
+// Years, Weeks and Days 
+
+	var DAYS_IN_WEEK = 7; 
+
+	// Function to find year, week, days 
+	function find(number_of_days) { 
+		var year, week, days; 
+
+		// Assume that years 
+		// is of 365 days 
+		year = parseInt(number_of_days / 365); 
+		week = parseInt((number_of_days % 365) / DAYS_IN_WEEK); 
+		days = (number_of_days % 365) % DAYS_IN_WEEK; 
+
+		document.write("years = " + year + "<br/>"); 
+		document.write("weeks = " + week + "<br/>"); 
+		document.write("days = " + days + "<br/>"); 
+	} 
+
+	// Driver Code 
+	
+		var number_of_days = 200; 
+		find(number_of_days); 
+
+// This code contributed by Rajput-Ji 
+
+</script> 

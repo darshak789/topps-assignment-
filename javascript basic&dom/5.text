@@ -1,0 +1,2 @@
+4>What the deference between undefined and undeclare in JavaScript?
+=>Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have been declared but not given a value.

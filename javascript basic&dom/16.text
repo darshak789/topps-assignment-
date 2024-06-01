@@ -1,0 +1,2 @@
+16>What is the result of the expression (true && 1 && "hello")? 
+=>true

@@ -1,0 +1,2 @@
+19>What is the use of is Nan function? 
+=>sNaN() returns true if a number is Not-a-Number. In other words: isNaN() converts the value to a number before testing it.
